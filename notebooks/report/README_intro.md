@@ -12,7 +12,7 @@ The aims of our analysis are three-fold:
 
 ## Definitions:
 ### Opportunity Youth:
-The Opportunity Youth population is defined as persons aged between 16 and 24 who are not in school and are not working.  
+The Opportunity Youth population is defined as persons aged between 16 and 24 who are not in school and are not working.  Throughout this analysis, you may see Opportunity Youth referred to as 'OY'.
 
 We define anyone who is either working or participating in school as Non-Opportunity Youth.
 
@@ -23,6 +23,7 @@ For the purposes of this report, South King County has been defined using the PU
 - Throughout this analysis, comparisons are sometimes drawn between this report and the 2016 report on Opportunity Youth.  It is important to note that the way the data was defined for the 2016 report differs from how we have defined our data.  The 2016 report includes some data from the wider King County area whereas we have stayed strictly within the four aforementioned PUMA codes.
 - The 2016 report uses data from the 2014 PUMS data (collected in the 2010 census).
 - Our 2020 report utilises data from the 2017 PUMS data, as provided by the ACS website.
+- The 2017 PUMS data represents a sample of the population.  The ACS included person weightings to allow for appropriate scaling.  Numbers quoted in relation to population counts throughout the analysis are based on the person weights. 
 
 ## Overview:
 This analysis was completed in four stages:
