@@ -1,0 +1,3 @@
+## Conclusion:
+
+This report set out to highlight areas for future investigation in order to gain a better understanding of the Opportunity Youth population.  By diving deeper into the reasons for the levels of education that the Opportunity Youth attain, and the factors that motivate Opportunity Youth to seek employment, a better understanding of this population can be formed to drive future efforts of support.  
