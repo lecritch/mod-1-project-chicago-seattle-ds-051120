@@ -35,3 +35,19 @@ This analysis was completed in four stages:
 
 4. A visualisation highlighting a trend between the 2014 data and the current 2017 data.
 
+## Directory of Repo:
+
+```
+├── notebooks
+│   ├── exploratory
+│   └── report
+├── references
+├── reports
+│   └── figures
+├── src
+│   ├── data
+│   │   ├── sql
+│   ├── data_cleaning
+│   └── requirements
+```
+
