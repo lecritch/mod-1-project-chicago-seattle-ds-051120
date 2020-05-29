@@ -79,7 +79,7 @@ This distribution of the OY population might lead to further investigations abou
 ### 3. OY Population by Age Group:
 We decided to break the OY population into three age groups: 16-18yo, 19-21yo, 22-24yo.  This was so we could make comparisons with the 2016 report as well as being able to capture the potentially unique circumstances of each group.  
 
-![pop_ages.png](../../reports/figures/pop_ages.png)
+![pop_ages.png](../reports/figures/pop_ages.png)
 
 From this bar graph, we can see that the population of OY is highest for the 22-24 year olds and lowest for the 16-18 year olds.  This might be a trend we expect to see, since 16-18 years are more likely to still be under the supervison of family members and/or adults and so have more accountability to be in school or working.  
 
