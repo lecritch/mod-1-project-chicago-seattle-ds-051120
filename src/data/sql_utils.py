@@ -5,7 +5,7 @@ import os
 DBNAME = "opportunity_youth"
 
 def create_database_and_tables():
-    create_database()
+  #  create_database()
     create_tables()
     print("Successfully created database and all tables")
     print()
@@ -19,13 +19,13 @@ def create_database():
     """
     # Depending on your local settings, you may need to specify a user and password, e.g.
     # conn = psycopg2.connect(dbname="postgres", user="postgres", password="password")
-    conn = psycopg2.connect(dbname="postgres")
+    conn = psycopg2.connect(dbname="postgres",user="postgres", password="admin")
     conn.autocommit = True  # it seems this mode is needed to make a db
     conn.set_isolation_level(0)  # also this for dropping db
 
     # un-comment this line if you already have a database called
     # `opportunity_youth` and you want to drop it
-    # execute_sql_script(conn, "01_drop_old_database.sql")
+    execute_sql_script(conn, "01_drop_old_database.sql")
     execute_sql_script(conn, "02_create_new_database.sql")
 
     conn.close()
@@ -39,8 +39,7 @@ def create_tables():
     """
     # Depending on your local settings, you may need to specify a user and password, e.g.
     # conn = psycopg2.connect(dbname=DBNAME, user="postgres", password="password")
-    conn = psycopg2.connect(dbname=DBNAME)
-
+    conn = psycopg2.connect(dbname="postgres",user="postgres", password="admin")
     create_pums_2017_table(conn)
     create_puma_names_2010_table(conn)
     create_wa_jobs_2017_table(conn)
@@ -91,7 +90,9 @@ def copy_csv_files(data_files_dict):
     """
     # Depending on your local settings, you may need to specify a user and password, e.g.
     # conn = psycopg2.connect(dbname=DBNAME, user="postgres", password="password")
-    conn = psycopg2.connect(dbname=DBNAME)
+    #conn = psycopg2.connect(dbname=DBNAME)
+    conn = psycopg2.connect(dbname="postgres",user="postgres", password="admin")
+
 
     for name, files in data_files_dict.items():
         csv_file = files[0]
