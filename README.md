@@ -79,7 +79,7 @@ This distribution of the OY population might lead to further investigations abou
 ### 3. OY Population by Age Group:
 We decided to break the OY population into three age groups: 16-18yo, 19-21yo, 22-24yo.  This was so we could make comparisons with the 2016 report as well as being able to capture the potentially unique circumstances of each group.  
 
-![pop_ages.png](../reports/figures/pop_ages.png)
+![pop_ages.png](reports/figures/pop_ages.png)
 
 From this bar graph, we can see that the population of OY is highest for the 22-24 year olds and lowest for the 16-18 year olds.  This might be a trend we expect to see, since 16-18 years are more likely to still be under the supervison of family members and/or adults and so have more accountability to be in school or working.  
 
@@ -88,7 +88,7 @@ Further investigation into the living situations of OY 19 and older might shed l
 ### 4. Education Attainment Amongst Opportunity Youth:
 Since education is one of the definig factors of OY, it seems necessary to investigate the levels of education this population has attained, given that they are not currently in school.  
 
-![education_oy.png](../reports/figures/education_oy.png)
+![education_oy.png](reports/figures/education_oy.png)
 
 Across all ages, 49% of Opportunity Youth had a high school diploma or a GED.  We can see from the figure above that, when broken down by age group, we can see that 55% of 19-21yo and 48% of 22-24yo have achieved a high school diploma or GED whereas 58% of the 16-18yo have not attained a diploma.  This is not too surprising given that people between 16-18 years old are 'school aged', so it is typical to see 16-18yo without a diploma.  Further investigation into these circumstances is necessary.  
 
