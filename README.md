@@ -51,10 +51,10 @@ This analysis was completed in four stages:
 │   └── requirements
 ```
 
-# Identifying South King County and Opportunity Youth:
+## Identifying South King County and Opportunity Youth:
 To begin the analysis of the South King County (SKC) and the Opportunity youth (OY) within SKC we first needed to identify these two parameters. Starting with SKC we are looked at the 2010 Public Use Micro Area [(PUMA)](https://www.census.gov/geographies/reference-maps/2000/geo/2000-pumas.html) codes to see how the census determined south and King County (KC). Using this information and along with the Public Use Microdata Samples [(PUMS)](https://data.census.gov/mdat/#/search?ds=ACSPUMS1Y2018&rv=ucgid&g=7950000US5311612,5311613,5311614,5311615) we filtered through the geographic locations considered south by the census and matched those corresponding areas with their respective PUMA codes. Now understanding where our OP are located and what area of KC we are looking at we then needed a way to represent this data visually. To do this we utilized [GIS oranizations shapefiles](https://www.psrc.org/gis-shapefiles) and the [Geopandas](https://geopandas.org/install.html) library. After plotting the shapefile for KC, it was then time to create SKC plot that would overlay the KC visual. To do this we utilized the prior mentioned PUMA codes to isolate the specific areas considered South. After that was completed SKC a figure was used as an overlay to then create the entire SKC graph.
 
-# Updating the Estimate of Opportunity Youth in South King County:
+## Updating the Estimate of Opportunity Youth in South King County:
 
 In Part 2 of this analysis, we find an updated estimate on the number of Opportunity Youth in South King County.
 
@@ -99,25 +99,25 @@ As employment is the second defining factor of Opportunity Youth, it is compelli
 
 While 12% of the data was not reported, 56.7% of Opportunity Youth reported 'No' in the survey, in response to the category 'Looking for Work' (80% of which came from ages 19-24).  This sparks the question "why are Opportunity Youths not looking for work if they are neither in school or working?".  
 
-## Summary
+### Summary
 Our analysis so far has highlighted the need for further investigation into the education and employment status' of the Opportunity Youth.  
 
 Variables such as motivation for seeking education or employment, living circumstances and accountability systems for each age group require further research to gain a deeper understanding of the characteristics defining Opportunity Youth.
 
-# Opportunity Youth Status by Age:
+## Opportunity Youth Status by Age:
 In Part 3 of this analysis, we present updates on the "Opportunity Youth Status by Age" table from the 2016 report "Opportunity Youth in the Road Map Project Region".
  
 We also highlight the discrepancies that are present between the two data sets.
 
 First, we take a look at the 2014 data, as reported in 2016.
 
-# Table from 2016 Report:
+### Table from 2016 Report:
 ![2016_table.png](reports/figures/2016_table.png)
 
 As mentioned earlier, the specifics are unclear as to how the 2016 report defined the South King County region.  We believe this had an effect on the total population size that was reported.  
 
 Further to this, the 2016 report did not include people who were 'working without a diploma' in the 'Non-Opportunity Youth' category.  This conflicted with our definition of what constitutes an Opportunity Youth and so we chose to include 'working without a diploma' persons in our count for 'Non-Opportunity Youth' persons.  You will see in our updated table that we have shared the number of people who are working without a diploma, however, these people were already counted in our 'Not an Opportunity Youth' count, so we did not add them to our total counts to avoid double counting them.  
-# Table from 2020 Report:
+### Table from 2020 Report:
 ![2020_table.png](reports/figures/2020_table.png)
 
 Firstly, the significant difference between the size of the population reported in 2016 versus the size of the population we have calculated can be attributed to how we defined South King County.  
@@ -130,10 +130,10 @@ We can also see that the distribution of age groups is also fairly similar betwe
 
 ![16vs20_perc.png](reports/figures/16vs20_p.png)
 
-# Summary
+### Summary
 In part 3 of this analysis, we discussed the similarities between the 2016 findings and our own.  We saw that while the sampling region of the two reports differed, resulting in a larger reported population for the 2016 report, the **proportions** of the OY population remained much the same between the 2014 and 2017 data.   
 
-# Identifying Trends between 2016 data and now:
+## Identifying Trends between 2016 data and now:
 
 In this section we were looking for a trend between the 2016 report and our current data.
 
@@ -141,6 +141,6 @@ Reviewing the data provided by the 2016 report and comparing it to the numbers g
 
 While there is a significant difference in the number of OY in the data collected, when  the data is reframed to consider the makeup of the age groups by percentage rather than headcount, we see that there has not been a significant change in the overall makeup of the OY age groups.
 
-# Conclusion:
+## Conclusion:
 
 This report set out to highlight areas for future investigation in order to gain a better understanding of the Opportunity Youth population.  By diving deeper into the reasons for the levels of education that the Opportunity Youth attain, and the factors that motivate Opportunity Youth to seek employment, a better understanding of this population can be formed to drive future efforts of support.  
